@@ -33,8 +33,7 @@ export function ClearHistory({ clearChats }: ClearHistoryProps) {
       <AlertDialogTrigger asChild>
         <Button variant="ghost" disabled={isPending}>
           {isPending && <IconSpinner className="mr-2" />}
-          Clear history
-        </Button>
+Borrar historial        </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
